@@ -1,9 +1,14 @@
 # Single Page Applications Sprint Challenge
 
 - [Single Page Applications Sprint Challenge](#single-page-applications-sprint-challenge)
-  - [Full Time Students](#full-time-students)
+  - [About the author Rick Mansfield](#about-the-author-rick-mansfield)
+    - [Hi there 👋](#hi-there-)
+  - [Skills:](#skills)
+    - [FRONTEND:](#frontend)
+    - [BACKEND:](#backend)
+    - [ADDITIONAL SKILLS:](#additional-skills)
+  - [Want to try this challenge yourself?](#want-to-try-this-challenge-yourself)
   - [Introduction](#introduction)
-    - [Commits](#commits)
   - [Interview Questions](#interview-questions)
   - [Instructions](#instructions)
     - [Task 1: Project Set Up](#task-1-project-set-up)
@@ -11,20 +16,40 @@
       - [Testing MVP](#testing-mvp)
     - [Task 3: Stretch Goals](#task-3-stretch-goals)
   - [FAQs](#faqs)
-  - [Submission format](#submission-format)
-  - [Rick Mansfield's Pull Request](#rick-mansfields-pull-request)
+
+## About the author Rick Mansfield
+### Hi there 👋
+
+<!--
+**rickmansfield/rickmansfield** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 😄 Pronouns: ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- ⚡ Fun fact: ...
+-->
+- 💬 Ask me about coding and I may never shut up. LOL
+- 📫 How to reach me: [Resume](https://resume.creddle.io/resume/4uxc0m7zngm) or [LinkedIn](https://www.linkedin.com/in/peacefulrick/)
+- 😄 [See My PORTFOLIO](https://mansfield-port-v3.netlify.app/)
+- ⚡ Fun fact: ...really wanted to obtain the domain name VikingsCode.com since my family descended from Germanic Vikings!
+
+## Skills:
+### FRONTEND: 
+- React.js, Redux, Hooks, Context API, Jest, Yum, Axios, Javascript, HTML, CSS, Ant Design, RESTful API Design, JSX
+### BACKEND:
+- Node.js, Express, SQL, PostgreSQL, Python, Git CLI, VS Code, Vercel, Heroku, Netlify, Postman
+### ADDITIONAL SKILLS:
+- Agile Project Management, Algorithms, Architecture, Debugging, Deployment, Technical Project Management
+
+## Want to try this challenge yourself?
 
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
 
-This challenge allows you to practice the concepts and techniques learned over the past sprint and apply them in a concrete project. This sprint explored **single page applications**. During this sprint, you studied **routing, forms, and testing in cypress**. In your challenge this week, you will demonstrate your mastery of these skills by creating **Lambda Eats**, a website designed to bring food to hungry coders.
-
-This is an individual assessment. All work must be your own. Your challenge score is a measure of your ability to work independently using the material covered through this sprint. You need to demonstrate proficiency in the concepts and objectives introduced and practiced in preceding days.
-
-You are not allowed to collaborate during the sprint challenge. However, you are encouraged to follow the twenty-minute rule and seek support from your TL if you need direction.
-
-## Full Time Students
-
-_You have until 5pm PST to complete this challenge. The challenge is available from midnight on Thursday. However you should not be coding through the night; rather you can wake up on Friday and start coding at an hour you choose, rather than waiting for a unified start time. Ideally, you will be writing the majority of the code during the time block allocated on your calendar (9am to 1pm PST). And if you need extra time, there is a second time block allocated from 3pm - 5pm PST. CodeGrade submissions cannot be accepted beyond this time. Set up CodeGrade before you start coding to avoid common problems._
+This challenge allows you to practice the concepts and techniques learned for SPA's and apply them in a concrete project. Study and explored **single page applications** before you begin. You should have studied **routing, forms, and testing in cypress** in order to perform this challenge. In this challenge, you will demonstrate your mastery of these skills by creating **Lambda Eats**, a website designed to bring food to hungry coders.
 
 ## Introduction
 
@@ -38,13 +63,9 @@ You may use the following wireframes (also in a folder above) as guidance as you
 
 [Confirmation](https://tk-assets.lambdaschool.com/a0f43a34-9fab-4d2b-89f7-e23b22d32964_Pizza.gif)
 
-### Commits
-
-Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons) and your team lead as the evaluate your solution.
 
 ## Interview Questions
-
-Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question.
+- Once you have completed this challenge you should be able to answer these questions in an interview. 
 
 1. In 1-2 sentences, explain what React's `useRouteMatch` hook is used for.
 
@@ -53,29 +74,20 @@ Demonstrate your understanding of this week's concepts by answering the followin
    `useRouteMatch` hook helps determin if a given component is on a certain page. It's useful in conditions when we need to know somwthing specific related to whether we're on a particular route or not. 
 
 2. How would you explain form validation to someone who has never programmed before?
-
-   - **ANSWER** 
-   - Its a way to ensure the users actions align with the creators intentions at the server level. It prevents mistakes and some malice intentions from users. The server can be programmed to respond with hints for the required actions such as checking a box for terms or filling in an email or a name of a certain minimal maximum length. 
-
 3. In 1-2 sentences, define end to end testing.
-
-   - **ANSWER** 
-   - For context unit testing tests a specific block of code and is a fast result. This might be as simple as a console.log(). But E2E end-to-end is not just at the local level it is from the front end to the back end examining the user experience to ensure the user can "...accomplish an action..." We attempt to mimic the users interactions simulating real events like clicking, scrolling, providing data in fields etc. It makes sure we catch as many problems as practical before live production.
 
 ## Instructions
 
 ### Task 1: Project Set Up
 
-- [x] Create a forked copy of this project
-- [x] Add your team lead as collaborator on Github
-- [x] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [x] Create a new branch: `git checkout -b <firstName-lastName>`
-- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
-- [x] Push commits: `git push origin <firstName-lastName>`
+- [ ] Clone your OWN version of the repository (Not mine or Bloom Institute of Technology's by mistake!). 
+- [ ] Simply copy the zip file and then unzip it on your local machine and use your favorite IDE to get rolling. 
+- [ ] You will need to npm install and npm start in a terminal of your choice. 
+
 
 ### Task 2: Project Requirements
 
-Your finished project must include all of the following requirements:
+Your finished project should include all of the following requirements:
 
 - [ ] A homepage that has a "/" route and links to your form (button, nav bar, or any other type of link is acceptable but must have an id of "order-pizza")
 - [ ] A order form that has a "/pizza" route and shows the form
@@ -132,13 +144,3 @@ One of your goals is to return a database record of the order - for this you'll 
 2. Post to [reqres](https://reqres.in/) with `axios`
 3. Log data in console
 4. The URL you should use is `https://reqres.in/api/orders`. The tests are based on this URL.
-
-## Submission format
-
-Follow these steps for completing your project.
-
-Set up your fork on Github to [submit via Codegrade](https://www.notion.so/lambdaschool/Submitting-an-assignment-via-Code-Grade-A-Step-by-Step-Walkthrough-07bd65f5f8364e709ecb5064735ce374), pushing commits to your `<firstName-lastName>` branch.
-- [ ] Your code will be reviewed over the next few days. Read [these instructions](https://www.notion.so/How-to-View-Feedback-in-CodeGrade-c5147cee220c4044a25de28bcb6bb54a) to learn how to view feedback in CodeGrade.
-
-## Rick Mansfield's Pull Request
-- [Pull Request Link](https://github.com/LambdaSchool/web-sprint-challenge-single-page-applications/pull/191)
